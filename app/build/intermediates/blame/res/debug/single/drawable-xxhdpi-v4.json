@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\GAE_Android\\SiecolaExemploGCM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_stat_gcm.png",
+        "source": "C:\\GAE_Android\\SiecolaExemploGCM\\app\\src\\main\\res\\drawable-xxhdpi\\ic_stat_gcm.png"
+    },
+    {
+        "merged": "C:\\GAE_Android\\SiecolaExemploGCM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\GAE_Android\\SiecolaExemploGCM\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    }
+]

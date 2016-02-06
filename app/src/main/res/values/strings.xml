@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SiecolaExemplo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sender_id_">Sender ID:</string>
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
+    <string name="clear">Clear</string>
+    <string name="registration_id_">Registration ID:</string>
+    <string name="registrationid">RegistrationID</string>
+
+</resources>
