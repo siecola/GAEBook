@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/cron/cron1/testcron</url>
+    <description>Mensagem do Cron a cada 60 minutos</description>
+    <schedule>every 60 minutes</schedule>
+  </cron>
+</cronentries>

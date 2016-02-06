@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <!--  Services -->
+    <servlet>
+        <servlet-name>exemplooauth_services</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>com.siecola.exemplooauth.services</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jersey.config.server.provider.classnames</param-name>
+            <param-value>com.siecola.exemplooauth.authentication.AuthFilter;org.glassfish.jersey.filter.LoggingFilter</param-value>
+        </init-param>        
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exemplooauth_services</servlet-name>
+        <url-pattern>/api/*</url-pattern>
+    </servlet-mapping>
+
+	<listener>
+	    <listener-class>com.siecola.exemplooauth.InitServletContextClass</listener-class>
+	</listener>
+
+</web-app>
