@@ -114,9 +114,6 @@ public class UserManager {
 				.getDatastoreService();
 
 		if (!checkIfEmailExist (user)) {
-			if (!securityContext.isUserInRole("ADMIN")) {
-				user.setRole("USER");
-			}
 			Key userKey = KeyFactory.createKey(USER_KIND, "userKey");
 			Entity userEntity = new Entity(USER_KIND, userKey);
 
